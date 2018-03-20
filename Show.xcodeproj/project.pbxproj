@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		12E59F1ACAF3159071159DA0 /* Pods_ShowTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80EB72F0C9EB765F49B50F79 /* Pods_ShowTests.framework */; };
 		3B0ADBE72060CEF600494E4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0ADBE62060CEF600494E4B /* AppDelegate.swift */; };
-		3B0ADBE92060CEF600494E4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0ADBE82060CEF600494E4B /* ViewController.swift */; };
 		3B0ADBEC2060CEF600494E4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B0ADBEA2060CEF600494E4B /* Main.storyboard */; };
 		3B0ADBEE2060CEF600494E4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B0ADBED2060CEF600494E4B /* Assets.xcassets */; };
 		3B0ADBF12060CEF600494E4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B0ADBEF2060CEF600494E4B /* LaunchScreen.storyboard */; };
 		3B0ADBFC2060CEF600494E4B /* ShowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0ADBFB2060CEF600494E4B /* ShowTests.swift */; };
 		3B0ADC072060CEF700494E4B /* ShowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0ADC062060CEF700494E4B /* ShowUITests.swift */; };
+		3B0ADC162060D08C00494E4B /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0ADC152060D08C00494E4B /* HomePage.swift */; };
+		3B0ADC192060DD2400494E4B /* HomePageCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B0ADC182060DD2400494E4B /* HomePageCollectionCell.swift */; };
+		3B0ADC1C2061C94500494E4B /* Monoton-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B0ADC1B2061C94500494E4B /* Monoton-Regular.ttf */; };
+		3B0ADC1E2061CB2000494E4B /* RubikMonoOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B0ADC1D2061CB1F00494E4B /* RubikMonoOne-Regular.ttf */; };
 		C87366ACAAF579DC7B863D34 /* Pods_ShowUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E3EE09EAB09A73F2A62134A /* Pods_ShowUITests.framework */; };
 		FCC7FC8D88267B6BD3A4BE3D /* Pods_Show.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C9050EB06CE9A149FA90F06 /* Pods_Show.framework */; };
 /* End PBXBuildFile section */
@@ -42,7 +45,6 @@
 		28D56F245B07BDD670E513C5 /* Pods-Show.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Show.release.xcconfig"; path = "Pods/Target Support Files/Pods-Show/Pods-Show.release.xcconfig"; sourceTree = "<group>"; };
 		3B0ADBE32060CEF600494E4B /* Show.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Show.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B0ADBE62060CEF600494E4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3B0ADBE82060CEF600494E4B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3B0ADBEB2060CEF600494E4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3B0ADBED2060CEF600494E4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B0ADBF02060CEF600494E4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -53,6 +55,10 @@
 		3B0ADC022060CEF700494E4B /* ShowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B0ADC062060CEF700494E4B /* ShowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowUITests.swift; sourceTree = "<group>"; };
 		3B0ADC082060CEF700494E4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B0ADC152060D08C00494E4B /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		3B0ADC182060DD2400494E4B /* HomePageCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageCollectionCell.swift; sourceTree = "<group>"; };
+		3B0ADC1B2061C94500494E4B /* Monoton-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Monoton-Regular.ttf"; sourceTree = "<group>"; };
+		3B0ADC1D2061CB1F00494E4B /* RubikMonoOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RubikMonoOne-Regular.ttf"; sourceTree = "<group>"; };
 		70612CBB75C448BBCEAC1AE8 /* Pods-Show.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Show.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Show/Pods-Show.debug.xcconfig"; sourceTree = "<group>"; };
 		71694BB0B3067DCD2106E478 /* Pods-ShowUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShowUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShowUITests/Pods-ShowUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		80EB72F0C9EB765F49B50F79 /* Pods_ShowTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShowTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -127,8 +133,10 @@
 		3B0ADBE52060CEF600494E4B /* Show */ = {
 			isa = PBXGroup;
 			children = (
+				3B0ADC1A2061C91500494E4B /* Fonts */,
+				3B0ADC172060DCED00494E4B /* CustomViews */,
+				3B0ADC142060D04F00494E4B /* ViewControllers */,
 				3B0ADBE62060CEF600494E4B /* AppDelegate.swift */,
-				3B0ADBE82060CEF600494E4B /* ViewController.swift */,
 				3B0ADBEA2060CEF600494E4B /* Main.storyboard */,
 				3B0ADBED2060CEF600494E4B /* Assets.xcassets */,
 				3B0ADBEF2060CEF600494E4B /* LaunchScreen.storyboard */,
@@ -153,6 +161,31 @@
 				3B0ADC082060CEF700494E4B /* Info.plist */,
 			);
 			path = ShowUITests;
+			sourceTree = "<group>";
+		};
+		3B0ADC142060D04F00494E4B /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3B0ADC152060D08C00494E4B /* HomePage.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3B0ADC172060DCED00494E4B /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				3B0ADC182060DD2400494E4B /* HomePageCollectionCell.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		3B0ADC1A2061C91500494E4B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3B0ADC1B2061C94500494E4B /* Monoton-Regular.ttf */,
+				3B0ADC1D2061CB1F00494E4B /* RubikMonoOne-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 		8EB251C883F0054624AEF457 /* Frameworks */ = {
@@ -281,6 +314,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B0ADC1E2061CB2000494E4B /* RubikMonoOne-Regular.ttf in Resources */,
+				3B0ADC1C2061C94500494E4B /* Monoton-Regular.ttf in Resources */,
 				3B0ADBF12060CEF600494E4B /* LaunchScreen.storyboard in Resources */,
 				3B0ADBEE2060CEF600494E4B /* Assets.xcassets in Resources */,
 				3B0ADBEC2060CEF600494E4B /* Main.storyboard in Resources */,
@@ -458,8 +493,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B0ADBE92060CEF600494E4B /* ViewController.swift in Sources */,
 				3B0ADBE72060CEF600494E4B /* AppDelegate.swift in Sources */,
+				3B0ADC162060D08C00494E4B /* HomePage.swift in Sources */,
+				3B0ADC192060DD2400494E4B /* HomePageCollectionCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
