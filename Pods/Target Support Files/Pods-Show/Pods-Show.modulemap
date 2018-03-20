@@ -1,0 +1,6 @@
+framework module Pods_Show {
+  umbrella header "Pods-Show-umbrella.h"
+
+  export *
+  module * { export * }
+}
