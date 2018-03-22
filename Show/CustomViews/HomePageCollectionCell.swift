@@ -11,4 +11,6 @@ import UIKit
 class HomePageCollectionCell: UICollectionViewCell {
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var categoryLabel:UILabel!
+    
+
 }

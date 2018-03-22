@@ -8,7 +8,7 @@
 
 import UIKit
 
-class HomePage: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
+class HomePage: UIViewController{
 
     
     let modelCategories = ["Editorial", "Runway/Catwalk", "Street", "Plus-Size", "Transgender", "Underwear/Lingerie", "Fitness/Fit", "Commercial", "Petit", "Glamour", "Sports", "Mature", "Parts", "African" ]
@@ -25,8 +25,8 @@ class HomePage: UIViewController, UICollectionViewDelegate, UICollectionViewData
         
         let layout = self.collectionView.collectionViewLayout as! UICollectionViewFlowLayout
         layout.sectionInset = UIEdgeInsetsMake(0, 5, 0, 5)
-        layout.minimumInteritemSpacing = 10
-        layout.itemSize = CGSize(width: (self.collectionView.frame.size.width-20)/2, height: (self.collectionView.frame.size.height)/2.5)
+        layout.minimumInteritemSpacing = 5
+        layout.itemSize = CGSize(width: (self.collectionView.frame.size.width-20)/2, height: (self.collectionView.frame.size.height)/3)
     }
 
     override func didReceiveMemoryWarning() {
@@ -34,7 +34,11 @@ class HomePage: UIViewController, UICollectionViewDelegate, UICollectionViewData
         // Dispose of any resources that can be recreated.
     }
     
+}
 
+
+extension HomePage: UICollectionViewDelegate, UICollectionViewDataSource {
+    
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return modelCategories.count
     }
@@ -48,6 +52,13 @@ class HomePage: UIViewController, UICollectionViewDelegate, UICollectionViewData
         }
         cell.categoryLabel.text = self.modelCategories[indexPath.row]
         cell.layer.cornerRadius = 10
+        cell.layer.borderColor = UIColor.black.cgColor
+        cell.layer.borderWidth = 1
         return cell
     }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        self.performSegue(withIdentifier: "toCategory", sender: nil)
+    }
 }
+
